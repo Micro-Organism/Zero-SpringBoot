@@ -1,0 +1,8 @@
+spring:
+    application:
+        name: zero-spring-boot-stater
+com:
+    person:
+        age: 18
+        name: organism
+        gender: F
