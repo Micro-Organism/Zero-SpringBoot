@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: zero-spring-boot-stater-test
+# 也可以在这里自己注入相关配置
+# todo 这里需要优化，可以参考spring-boot-starter-redis 的写法, 如果不配置，就会找不到相关属性，有可能是引入了 spring-cloud 东西导致的
+com:
+    person:
+        age: 18
+        name: rabbit
+        gender: F
